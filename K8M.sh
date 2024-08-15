@@ -24,10 +24,8 @@ sudo apt-get update -y
 sudo apt-get install -y kubectl
 
 echo "----------------- kubectl version-----------------"
-snap install kubectl --classic
-kubectl version --client
 
-
+kubectl version 
 
 echo "----------------- Install minikube on ubuntu -----------------"
 
